@@ -11,7 +11,7 @@
     "e2e": "protractor",
     "build": "rimraf dist && webpack --config config/webpack.dev.js --progress --profile --bail",
 	"preinstall": "npm install -g http-server",
-    "postinstall": "npm run build && mv dist/* ."
+    "postinstall": "npm install && npm run build && mv dist/* ."
   },
   "private": true,
   "dependencies": {
