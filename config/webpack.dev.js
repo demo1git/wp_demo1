@@ -8,7 +8,7 @@ module.exports = webpackMerge(commonConfig, {
 
   output: {
     path: helpers.root('dist'),
-    publicPath: 'http://localhost:4200/',
+    publicPath: 'https://ang-webapp-1.herokuapp.com/',
     filename: '[name].js',
     chunkFilename: '[id].chunk.js'
   },
@@ -22,3 +22,4 @@ module.exports = webpackMerge(commonConfig, {
     stats: 'minimal'
   }
 });
+
